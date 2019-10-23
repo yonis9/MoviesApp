@@ -60,10 +60,10 @@ class App extends Component {
           <h1>Movies App</h1>
 
           <Switch>
-            <Route path='/' exact render={(routeProps) => (<UpcomingMovies {...routeProps} upcomingMovies={upcomingMovies} />)} />
-          <Route path='/search' render={(routeProps) => (<SearchPage {...routeProps} onInputChange={this.onInputChange} data={moviesSearch} />)} />
-          <Route path='/popular' render={(routeProps) => (<PopularMovies {...routeProps}popularMovies={popularMovies} />)} />
-          <Route path='/movie/:id' render={(routeProps) => (<Movie {...routeProps} />)} />
+            <Route path='/MoviesApp/' exact render={(routeProps) => (<UpcomingMovies {...routeProps} upcomingMovies={upcomingMovies} />)} />
+          <Route path='MoviesApp/search' render={(routeProps) => (<SearchPage {...routeProps} onInputChange={this.onInputChange} data={moviesSearch} />)} />
+          <Route path='MoviesApp/popular' render={(routeProps) => (<PopularMovies {...routeProps}popularMovies={popularMovies} />)} />
+          <Route path='MoviesApp/movie/:id' render={(routeProps) => (<Movie {...routeProps} />)} />
         </Switch>
        </div>
       </Router>
