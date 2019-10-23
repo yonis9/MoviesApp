@@ -7,17 +7,17 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
     return (
       <nav>
-        <Link to='/'>
+        <Link to='/MoviesApp/'>
           <div id='upcoming'>
             <FontAwesomeIcon icon={faHome} size='lg'/>
           </div>
         </Link>
-        <Link to='/popular'>
+        <Link to='/MoviesApp/popular'>
           <div id='popular' >
             <FontAwesomeIcon icon={faStar} size='lg'/>
           </div>
         </Link>
-        <Link to='/search'>
+        <Link to='/MoviesApp/search'>
           <div id='search'>
             <FontAwesomeIcon icon={faSearch} size='lg'/>
           </div>
