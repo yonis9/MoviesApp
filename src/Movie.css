@@ -1,0 +1,37 @@
+.movie {
+    display: flex;
+    text-align: left;
+    color: #a0a0a0;
+}
+
+.description {
+    margin: 0 5%
+}
+
+.description h5 {
+    color: #3DB55A
+}
+
+.name-rating {
+    text-align: right;
+    color: #e89e00;
+}
+
+
+.description input, .description button {
+background: #edd7aa;
+border-radius: 5px;
+border: 2px solid #e89e00;
+margin: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .movie img {
+        height: 200px;
+        width: 150px;
+    }
+
+    .movie p {
+        font-size: 0.8em;
+    }
+}

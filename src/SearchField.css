@@ -1,0 +1,12 @@
+#searchinput {
+height: 30px;
+width: 200px;
+border-radius: 5px;
+text-align: center;
+border: 2px solid #e89e00;
+margin-bottom: 5%;
+}
+
+input:focus {
+    outline: 0
+}

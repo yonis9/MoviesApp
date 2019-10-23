@@ -1,0 +1,17 @@
+nav {
+    margin: 30px ;
+    display: flex;
+    justify-content: flex-end
+}
+
+nav div {
+    margin-left: 10px;
+    color: #f2f2f2;
+    transition: 0.3s ease-in;
+}
+
+nav div:hover {
+    cursor: pointer;
+    color: #e89e00;
+    transition: 0.3s ease-in;
+}
