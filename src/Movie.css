@@ -25,13 +25,23 @@ border: 2px solid #e89e00;
 margin: 2px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px)  {
     .movie img {
-        height: 200px;
+        height: 200px; 
         width: 150px;
     }
 
     .movie p {
         font-size: 0.8em;
     }
+
+    .movie {
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
+
+
+
+
